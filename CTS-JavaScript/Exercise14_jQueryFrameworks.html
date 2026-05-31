@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src=
+"https://code.jquery.com/jquery-3.7.1.min.js">
+</script>
+
+</head>
+
+<body>
+
+<button id="registerBtn">
+Register
+</button>
+
+<div id="card">
+
+Community Event
+
+</div>
+
+<script>
+
+$('#registerBtn').click(function(){
+
+$('#card').fadeOut();
+
+setTimeout(() => {
+
+$('#card').fadeIn();
+
+},1000);
+
+});
+
+</script>
+
+</body>
+</html>
