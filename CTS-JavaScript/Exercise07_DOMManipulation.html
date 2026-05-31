@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="events"></div>
+
+<button onclick="register()">
+Register
+</button>
+
+<script>
+
+const container =
+document.querySelector("#events");
+
+const card =
+document.createElement("div");
+
+card.innerHTML =
+"<h3>Tech Workshop</h3>";
+
+container.appendChild(card);
+
+function register(){
+
+card.innerHTML =
+"<h3>Registered Successfully</h3>";
+}
+
+</script>
+
+</body>
+</html>
