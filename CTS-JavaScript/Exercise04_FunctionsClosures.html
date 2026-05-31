@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+function addEvent(name){
+
+console.log(
+"Event Added: " + name
+);
+}
+
+function registerUser(user){
+
+console.log(
+user + " Registered"
+);
+}
+
+function filterEventsByCategory(category){
+
+console.log(
+"Category: " + category
+);
+}
+
+function registrationCounter(){
+
+let count = 0;
+
+return function(){
+
+count++;
+
+return count;
+};
+}
+
+const counter =
+registrationCounter();
+
+console.log(counter());
+
+console.log(counter());
+
+</script>
+
+</body>
+</html>
