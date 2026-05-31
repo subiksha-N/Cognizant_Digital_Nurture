@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+let events = [];
+
+events.push("Music Event");
+events.push("Workshop on Baking");
+events.push("Music Concert");
+
+console.log(events);
+
+let musicEvents =
+events.filter(event =>
+event.includes("Music"));
+
+console.log(musicEvents);
+
+let displayCards =
+events.map(event =>
+"Event: " + event);
+
+console.log(displayCards);
+
+</script>
+
+</body>
+</html>
